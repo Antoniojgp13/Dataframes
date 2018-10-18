@@ -22,12 +22,10 @@
    ],
    "source": [
     "import pandas as pd\n",
-    "import matplotlib.pyplot as plt\n",
     "ventas = [10, 20, 30, 10, 200,]\n",
     "index = ['Maserati', 'Ferrari', 'Lamborghini', 'Bugatti', 'Mercedes-Benz']\n",
     "df = pd.DataFrame({'ventas' : ventas}, index=index)\n",
-    "ax = df.plot.bar(rot=0)\n",
-    "plt.savefig (\"Dataframe1.pdf\")"
+    "ax = df.plot.bar(rot=0)"
    ]
   },
   {
